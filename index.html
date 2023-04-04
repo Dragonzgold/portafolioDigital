@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Ramirez</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/62d08f75ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contenedorHeader">
+        <header>
+            <div class="logo">
+                <a href="#">Jesús</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobreMi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="navResponsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section class="inicio" id="inicio">
+        <div class="contenidoBanner">
+            <div class="contenedorImg">
+                <img src="./components/JesusRamirez.jpg">
+            </div>
+            <h1>Jesus Ramirez</h1>
+            <h2>Ingeniero Informatico</h2>
+            <div class="redes">
+                <a href="https://github.com/Dragonzgold" class="fa-brands fa-github"></a>
+                <a href="https://www.instagram.com/yisus_drag/" target="_blank" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobreMi" class="sobreMi">
+        <div class="contenidoSobreMi">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jesus Ramirez </span> Estudiante en la area de ingenieria Informatica. Soy estudiante de una de las mejores universidades de Venezuela llamada URBE (Univerisidad Rafael Belloso Chacín). Que aspira en convertirse en un buen desarrollador de software como programador web, poseo diversos conocimientos que encontrara mas abajo. Al igual que alguno de mis gustos y demas tipo de informacion. Le invito aque, si le gusta mi portafolio no dude en contactarme</p>
+            <div class="fila">
+                <!-- Datos Personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            14-04-2002
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            0414-9622578
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Blazikenspheal@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            <a href="https://jesusramirezhistory.netlify.app" style="text-decoration: none; color: #f00;" target="_blank">Portafolio</a>
+                        </li>
+                        <li>
+                            <strong>Pais</strong>
+                            Venezuela
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante universitario</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedorIntereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>ESTUDIAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-desktop"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-shield-dog"></i>
+                            <span>ANIMALES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills" >
+        <div class="contenidoSkills">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <span>JavaScript</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>HTML & CSS</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Word & Power Point</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Excel</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Base de Datos</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Redes</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skills">
+                        <span>Comunicación</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Trabajo en equipo</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Creatividad</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Dedicación</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Administrador de proyectos</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Compromiso</span>
+                        <div class="barraSkill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenidoCurriculum">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Escuela basica y secundaria</h4>
+                        <span class="casa">Colegio Antonio Rosmini</span>
+                        <span class="fecha">2007 - 2020</span>
+                        <p>Institucion reconocida y bien valorada de Venezuela. Donse se enseña Ingles e Italiano. Debido a que es un colegio ItaloVenezolano.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte culinaria</h4>
+                        <span class="casa">Curso de cocina basico/Intermedio</span>
+                        <span class="fecha">2020</span>
+                        <p>Aplique para un curso de gastronomia donde se adquirio conocimiento sobre el ambito de la cocina, que iba desde lo mas basico hasta el nivel intermedio.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Estudio Universiario</h4>
+                        <span class="casa">Univerisidad Rafael Bellozo Chacín</span>
+                        <span class="fecha">2020 - Actual</span>
+                        <p>En estos momentos me encuentro en la posición de estudiante en una de las mejores universidades de venezuela. Donde se adquiere varios conocimientos sobre el ambito de la programación y todo lo que necesita un ingeniero informatico para ejercer</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Front-Developer</h4>
+                        <span class="fecha">2020 - Actual</span>
+                        <p>Me encargo del apartado del front-end de varios proyectos de la universidad. Ese ha sido mi rol y función durante la mayor parte y la mejor parte que domino hasta los momentos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista de Base de Datos</h4>
+                        <span class="fecha">2022 - Actual</span>
+                        <p>Poseo conocimiento y experiencia a la hora de analizar, controlar y manejar base de datos. Mas que todo a la hora de analizarlo y de buscar lo más esencial de ellos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gestor de proyectos Informaticos</h4>
+                        <span class="fecha">2022 - Actual</span>
+                        <p>Logro controlar, manejar y resolver varios proyectos o al menos unos pocos a la vez para su buen funcionamiento y desarrollo. Pendiente de que todo sirva y vaya segun lo planificado o planeado</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portafolio" id="portafolio">
+        <div class="contenidoPortafolio">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./components/image1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Tienda de mascotas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./components/image2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño retro e infancia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./components/image3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Restaurante Tematica Libre</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./components/image4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Videojuego retro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="contenidoContacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Numero Telefónico">
+                    <input type="text" placeholder="Dirección de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>   
+                </div>
+                <div class="col">
+                    <img src="./components/JesusRamirez.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Numero: 0414-9629987
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                correo: Blazikenspheal@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/Dragonzgold" class="fa-brands fa-github"></a>
+            <a href="https://www.instagram.com/yisus_drag/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://github.com/Dragonzgold" class="fa-brands fa-telegram"></a>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
